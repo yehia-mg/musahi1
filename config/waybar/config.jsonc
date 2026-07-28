@@ -1,8 +1,8 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 38,
-    "spacing": 8,
+    "height": 44,
+    "spacing": 6,
 
     "modules-left": [
         "hyprland/workspaces"
@@ -19,12 +19,16 @@
         "tray"
     ],
 
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
+
     "clock": {
         "format": "{:%H:%M}"
     },
 
-    "battery": {
-        "format": "{capacity}%"
+    "pulseaudio": {
+        "format": " {volume}%"
     },
 
     "network": {
@@ -33,7 +37,11 @@
         "format-disconnected": "󰖪"
     },
 
-    "pulseaudio": {
-        "format": "{volume}%"
+    "battery": {
+        "format": " {capacity}%"
+    },
+
+    "tray": {
+        "spacing": 8
     }
 }
