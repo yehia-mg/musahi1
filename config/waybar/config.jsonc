@@ -28,6 +28,7 @@
     "battery": {
         "bat": "BAT0",
         "adapter": "AC",
+        "bat-compatibility": true,
         "format": "{icon}  {capacity}%",
         "format-charging": "󰂄  {capacity}%",
         "format-icons": ["󰁺", "󰁻", "󰁽", "󰁿", "󰂁", "󰁹"],
@@ -35,7 +36,7 @@
             "warning": 20,
             "critical": 10
         },
-        "tooltip-format": "{time} until {state}"
+        "tooltip-format": "{time}"
     },
 
     "network": {
