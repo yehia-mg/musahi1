@@ -1,17 +1,42 @@
 # musahi1
 
-A minimal Hyprland rice for Fedora.
+A clean, modular Hyprland rice for Fedora Linux — minimal, dark, and
+nature-inspired, with a rotating theme system.
 
-Theme:
-- Green / Nature
-- Vagabond
-- Lain
-- Evangelion
+> Status: work in progress. See [docs/installation.md](docs/installation.md).
 
-Components:
-- Hyprland
-- Waybar
-- Kitty
-- Rofi
-- Hyprlock
-- SwayNC
+## Themes
+
+- **Vagabond** (default) — dark green / olive, inspired by the Vagabond manga
+- **Lain**
+- **Evangelion**
+- **Nature**
+
+## Components
+
+| Component     | Tool        |
+|---------------|-------------|
+| Compositor    | Hyprland    |
+| Bar           | Waybar      |
+| Launcher      | Rofi        |
+| Terminal      | Kitty       |
+| Lock screen   | Hyprlock    |
+| Idle daemon   | Hypridle    |
+| Notifications | SwayNC      |
+| Wallpaper     | Hyprpaper   |
+
+## Installation
+
+```bash
+git clone git@github.com:yehia-mg/musahi1.git
+cd musahi1
+./install.sh
+./apply.sh
+```
+
+See [docs/installation.md](docs/installation.md) for full details and
+[docs/keybindings.md](docs/keybindings.md) for the keybinding reference.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

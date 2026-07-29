@@ -1,3 +1,18 @@
+# Fonts (owned locally, never committed)
 assets/fonts/
-assets/wallpapers/
-*.zip
+
+# Wallpapers (owned locally, never committed)
+themes/*/wallpapers/*
+!themes/*/wallpapers/.gitkeep
+
+# Backups created by install/apply scripts
+*.backup.*
+*.bak
+
+# Editor / OS junk
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
