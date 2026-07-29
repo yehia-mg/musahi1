@@ -1,5 +1,8 @@
 local hl = require("hyprland")
 
+local vars = require("variables")
+local theme = vars.theme
+
 hl.config({
     general = {
         gaps_in = 6,
