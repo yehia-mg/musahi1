@@ -1,0 +1,9 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    icon-theme: "Papirus";
+    display-drun: "Applications";
+    font: "Maple Mono NF 12";
+}
+
+@theme "theme.rasi"

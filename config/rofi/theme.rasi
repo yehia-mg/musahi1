@@ -1,0 +1,44 @@
+* {
+    bg: #101511EE;
+    bg-alt: #1C2A1EEE;
+    fg: #F2EAD3;
+    accent: #6D8B5B;
+
+    background-color: @bg;
+    text-color: @fg;
+
+    border: 2px;
+    border-color: @accent;
+
+    border-radius: 16px;
+
+    font: "Maple Mono NF 12";
+}
+
+window {
+    width: 38%;
+    padding: 20px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 0 0 15px 0;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    spacing: 8px;
+}
+
+element {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: #101511;
+}
