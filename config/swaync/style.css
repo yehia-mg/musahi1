@@ -1,0 +1,74 @@
+* {
+    font-family: "Maple Mono NF", monospace;
+    font-size: 14px;
+}
+
+#notification-center,
+#control-center {
+    background-color: rgba(28, 42, 30, 0.75);
+    border: 1px solid rgba(168, 181, 138, 0.25);
+    border-radius: 20px;
+    color: #F2EAD3;
+    padding: 10px;
+}
+
+.notification-row {
+    background: transparent;
+    margin-bottom: 6px;
+}
+
+.notification {
+    background-color: rgba(78, 107, 71, 0.35);
+    border-radius: 16px;
+    padding: 10px;
+    color: #F2EAD3;
+}
+
+.notification-content {
+    background: transparent;
+}
+
+.close-button {
+    background-color: rgba(168, 181, 138, 0.3);
+    color: #F2EAD3;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+.close-button:hover {
+    background-color: #4E6B47;
+}
+
+.widget-title {
+    color: #A8B58A;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 6px 10px;
+}
+
+.widget-title > button {
+    background-color: rgba(125, 140, 105, 0.35);
+    color: #F2EAD3;
+    border-radius: 12px;
+    padding: 4px 10px;
+}
+
+.widget-dnd {
+    background: transparent;
+    padding: 6px 10px;
+    color: #C7BEA7;
+}
+
+.widget-dnd > switch {
+    background-color: rgba(28, 42, 30, 0.6);
+    border-radius: 12px;
+}
+
+.widget-dnd > switch:checked {
+    background-color: #4E6B47;
+}
+
+.widget-dnd > switch slider {
+    background-color: #A8B58A;
+    border-radius: 10px;
+}
