@@ -1,3 +1,5 @@
+@import url("colors.css");
+
 * {
     font-family: "Maple Mono NF", "JetBrainsMono Nerd Font", monospace;
     font-size: 14px;
@@ -5,11 +7,11 @@
 }
 
 window#waybar {
-    background: rgba(28, 42, 30, 0.55);
-    border: 1px solid rgba(168, 181, 138, 0.25);
+    background: @bg_color;
+    border: 1px solid @border_color;
     border-radius: 20px;
     margin: 0 8px;
-    color: #F2EAD3;
+    color: @text_color;
 }
 
 #workspaces {
@@ -17,7 +19,7 @@ window#waybar {
 }
 
 #workspaces button {
-    color: #C7BEA7;
+    color: @muted_color;
     background: transparent;
     border: none;
     border-radius: 12px;
@@ -27,23 +29,23 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: #101511;
-    background: #7D8C69;
+    color: @active_fg;
+    background: @active_bg;
 }
 
 #workspaces button:hover {
-    background: rgba(78, 107, 71, 0.45);
+    background: @hover_bg;
 }
 
 #clock {
     font-weight: 600;
-    color: #A8B58A;
+    color: @accent_color;
     padding: 0 14px;
 }
 
 #network,
 #bluetooth {
-    color: #C7BEA7;
+    color: @muted_color;
     padding: 0 10px;
 }
 
@@ -57,12 +59,12 @@ window#waybar {
 }
 
 #battery {
-    color: #C7BEA7;
+    color: @muted_color;
     padding: 0 10px;
 }
 
 #battery.charging {
-    color: #A8B58A;
+    color: @accent_color;
 }
 
 #battery.warning:not(.charging) {

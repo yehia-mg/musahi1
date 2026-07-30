@@ -1,0 +1,8 @@
+@define-color bg_color rgba(18, 24, 32, 0.55);
+@define-color border_color rgba(127, 217, 201, 0.25);
+@define-color text_color #DCE8E6;
+@define-color muted_color #7C8B90;
+@define-color accent_color #7FD9C9;
+@define-color active_bg #3D5A66;
+@define-color active_fg #090C10;
+@define-color hover_bg rgba(36, 51, 61, 0.45);
