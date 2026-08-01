@@ -52,6 +52,6 @@
         "format-disabled": "󰂲",
         "format-connected": "󰂱 {device_alias}",
         "tooltip-format": "{controller_alias} ({controller_address})",
-        "on-click": "rfkill toggle bluetooth"
+        "on-click": "blueman-manager"
     }
 }

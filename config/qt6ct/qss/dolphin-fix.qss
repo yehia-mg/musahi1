@@ -1,0 +1,9 @@
+QAbstractItemView {
+    color: #FFFFFF;
+}
+QListView {
+    color: #FFFFFF;
+}
+QTreeView {
+    color: #FFFFFF;
+}
