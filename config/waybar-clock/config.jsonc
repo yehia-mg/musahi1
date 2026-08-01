@@ -1,0 +1,17 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 90,
+    "width": 260,
+    "margin-top": 8,
+    "exclusive": false,
+
+    "modules-center": ["clock"],
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%A, %d %B}",
+        "interval": 1,
+        "tooltip": false
+    }
+}
