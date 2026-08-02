@@ -49,7 +49,22 @@ cd musashi
 
 See [docs/keybindings.md](docs/keybindings.md) for the full reference.
 
-## Screenshots
+
+### Desktop
+
+![Desktop overview](assets/screenshots/desktop-overview.png)
+
+### Waybar (floating island)
+
+![Waybar island](assets/screenshots/waybar-island.png)
+
+### Rofi launcher
+
+![Rofi launcher](assets/screenshots/rofi-launcher.png)
+
+### Dolphin file manager
+
+![Dolphin](assets/screenshots/dolphin-filemanager.png)
 
 _Coming soon._
 
