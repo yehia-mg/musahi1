@@ -1,0 +1,25 @@
+(deflisten cava_data :initial "[]"
+  "bash ~/.config/eww/scripts/cava.sh")
+
+(defpoll clock_time :interval "1s" "date '+%H:%M'")
+(defpoll clock_date :interval "60s" "date '+%A، %d %B'")
+
+(defwindow clock
+  :monitor 0
+  :geometry (geometry :x "829px" :y "74px" :width "263px" :height "281px" :anchor "top left")
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (box :orientation "vertical" :space-evenly false :class "clock-box"
+    (label :class "clock-time" :text clock_time)
+    (label :class "clock-date" :text clock_date)))
+
+(defwindow cava
+  :monitor 0
+  :geometry (geometry :x "40px" :y "796px" :width "420px" :height "200px" :anchor "top left")
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (box :class "cava-box" :orientation "horizontal" :space-evenly true :valign "end"
+    (for entry in cava_data
+      (box :class "cava-bar" :valign "end" :style "min-height: ${entry}px;"))))

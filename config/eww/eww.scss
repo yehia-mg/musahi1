@@ -1,0 +1,31 @@
+* {
+    all: unset;
+}
+
+.clock-box {
+    background-color: transparent;
+}
+
+.clock-time {
+    color: #F2EAD3;
+    font-family: "Maple Mono NF";
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.clock-date {
+    color: #C7BEA7;
+    font-family: "Maple Mono NF";
+    font-size: 14px;
+}
+
+.cava-box {
+    background-color: transparent;
+}
+
+.cava-bar {
+    background: linear-gradient(to top, #1C2A1E, #A8B58A);
+    min-width: 6px;
+    margin: 0 2px;
+    border-radius: 3px;
+}
