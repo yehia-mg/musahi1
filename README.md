@@ -1,4 +1,4 @@
-# musahi1
+# musashi1
 
 A clean, modular Hyprland rice for Fedora Linux — minimal, dark, and
 nature-inspired, with a switchable theme system.
