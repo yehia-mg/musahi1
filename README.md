@@ -38,8 +38,8 @@ See [docs/installation.md](docs/installation.md) for full setup instructions,
 including the COPR repository needed for `hyprpaper`.
 
 ```bash
-git clone git@github.com:yehia-mg/musahi1.git
-cd musahi1
+git clone git@github.com:yehia-mg/musashi.git
+cd musashi
 ./install.sh
 ./apply.sh
 ./scripts/theme-switch.sh vagabond

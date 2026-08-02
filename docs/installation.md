@@ -8,8 +8,8 @@
 ## 1. Clone the repository
 
 ```bash
-git clone git@github.com:yehia-mg/musahi1.git
-cd musahi1
+git clone git@github.com:yehia-mg/musashi.git
+cd musashi
 ```
 
 ## 2. Install packages
