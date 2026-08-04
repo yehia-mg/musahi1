@@ -1,0 +1,11 @@
+1-  cp ~/Downloads/اسم-الصورة-الجديدة.jpg ~/Projects/musashi/themes/vagabond/wallpapers/
+
+
+2-  cd ~/Projects/musashi
+  ./scripts/theme-switch.sh vagabond 
+
+3-  rm ~/Projects/musashi/themes/vagabond/wallpapers/اسم-الصورة-القديمة.jpg
+
+
+4-  ./scripts/theme-switch.sh vagabond
+

@@ -1,0 +1,31 @@
+window {
+    background-color: rgba(16, 21, 17, 0.75);
+}
+
+button {
+    background-color: rgba(28, 42, 30, 0.6);
+    border: 1px solid rgba(168, 181, 138, 0.3);
+    border-radius: 16px;
+    color: #F2EAD3;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+button:focus, button:active, button:hover {
+    background-color: #4E6B47;
+    outline-style: none;
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"));
+}

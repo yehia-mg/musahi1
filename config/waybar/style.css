@@ -74,3 +74,35 @@ window#waybar {
 #battery.critical:not(.charging) {
     color: #C15C5C;
 }
+
+#cpu,
+#memory {
+    color: #C7BEA7;
+    padding: 0 8px;
+}
+
+#custom-power {
+    color: #C15C5C;
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+#custom-power:hover {
+    color: #F2EAD3;
+}
+
+#cpu,
+#memory {
+    color: #C7BEA7;
+    padding: 0 8px;
+}
+
+#custom-power {
+    color: #C15C5C;
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+#custom-power:hover {
+    color: #F2EAD3;
+}
