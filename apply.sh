@@ -15,6 +15,7 @@ backup_if_exists() {
 }
 
 mkdir -p ~/.config/hypr/conf.d ~/.config/waybar ~/.config/rofi ~/.config/kitty \
+mkdir -p ~/.config/systemd/user
          ~/.config/swaync ~/.config/qt6ct/colors ~/.config/qt6ct/qss \
          ~/.config/Kvantum ~/.config/fontconfig ~/.config/eww/scripts \
          ~/.config/cava ~/.config/swayosd
@@ -28,6 +29,9 @@ backup_if_exists ~/.config/eww
 
 echo "==> Copying configs..."
 cp -r config/hypr/* ~/.config/hypr/
+cp config/systemd/waybar.service ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable --now waybar.service
 cp -r config/waybar/* ~/.config/waybar/
 cp -r config/rofi/* ~/.config/rofi/
 cp -r config/kitty/* ~/.config/kitty/
